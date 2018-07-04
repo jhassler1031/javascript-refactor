@@ -176,6 +176,8 @@ spanishColor = function(colorName) {
 var foo = "bar";
 
 // Put your answer below -------------------------
+var foo;
+foo = "bar";
 
 
 // -----------------------------------------------
