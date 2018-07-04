@@ -84,6 +84,9 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
+//The answer is C: z then y.  Letter never gets logged while it's value is x.
+//z gets printed first because letter gets changed to z and logged before the
+//setTimeout runs, which then changes letter to y and logs it.
 
 
 // -----------------------------------------------
