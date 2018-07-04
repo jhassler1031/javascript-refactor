@@ -232,6 +232,18 @@ var decreaseScore = function() {
 };
 
 // Put your answer below -------------------------
+(function() {
+  'use strict';
+  var score = 0;
+
+  var increaseScore = function() {
+    score++;
+  };
+
+  var decreaseScore = function() {
+    score--;
+  };
+});
 
 
 // -----------------------------------------------
