@@ -146,6 +146,19 @@ var spanishColor = function(colorName) {
 };
 
 // Put your answer below -------------------------
+  let color = {
+  "rojo": function() { return "#ff0000"; },
+  "blanco": function() { return "#ffffff"; },
+  "azul": function() { return "#0000ff"; },
+  "verde": function() { return "#00ff00";},
+  "negro": function() { return "#000000"; }
+}
+
+spanishColor = function(colorName) {
+  return color[colorName];
+}
+
+
 
 
 // -----------------------------------------------
