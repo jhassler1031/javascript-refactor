@@ -295,6 +295,12 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+//If no amount is given then the variable amount is set to NaN.  Trying to add
+//NaN to another number results in NaN as well.
+accelerate = function(amount = 1) {
+  speed += amount;
+}
+
 
 
 // -----------------------------------------------
