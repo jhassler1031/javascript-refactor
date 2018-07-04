@@ -32,6 +32,7 @@ function doSomethingCool() {
 }
 
 // Put your answer below -------------------------
+doSomethingCool = function() { console.log("Something Cool!"); };
 
 
 // -----------------------------------------------
