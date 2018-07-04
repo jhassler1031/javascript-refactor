@@ -344,6 +344,9 @@ var callLater = function(timeout, callback) {
 };
 
 // Put your answer below -------------------------
+callLater = function(callback, timeout=1000) {
+  setTimeout(callback, timeout);
+};
 
 
 // -----------------------------------------------
